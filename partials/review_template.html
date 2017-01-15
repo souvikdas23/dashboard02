@@ -1,0 +1,15 @@
+{{#each stat}}
+<div class="col-md-6">
+  <div class="x_title">
+    <h4>{{this.source_name}}</h4>          
+    <div class="clearfix"></div>
+  </div>
+  <p><b>Reviews : &nbsp {{this.source_reviews}}</b></p>
+    <span class="chart" style="width: 99px;height: 50px;">
+      <span class="rating">{{this.source_rating}}</span>
+      <canvas id="reviewchart-{{@index}}" style="height:47px;"></canvas>
+    </span>
+  <div class="clearfix"></div>
+  <p><b>Votes : &nbsp {{this.source_votes}}</b></p>
+</div>
+{{/each}}

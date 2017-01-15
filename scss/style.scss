@@ -1,0 +1,33 @@
+@import "bootstrap-sass-3.3.7/assets/stylesheets/bootstrap";
+@import "font-awesome/font-awesome";
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "custom";
+
+.chart-container{
+	height: 300px;
+}
+
+.review-chart{
+	height:60px;
+}
+
+.rating {
+	float: left;
+    display: inline-block;
+    line-height: 50px;	
+    margin-left: 37px;
+    z-index: 5;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+ 
+
